@@ -1,0 +1,6 @@
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+flowchart_test.hpj
+    HC5011: Error: flowchart_test.hpj : 
+	Cannot open the file "C:\USERS\LIU GUOLIANG\DESKTOP\flowchart_test\hlp\flowchart_test.hm."

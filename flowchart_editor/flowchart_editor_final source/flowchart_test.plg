@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: flowchart_test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB6.bat" with contents
+[
+@echo off
+start /wait hcw /C /E /M "hlp\flowchart_test.hpj"
+if errorlevel 1 goto :Error
+if not exist "hlp\flowchart_test.hlp" goto :Error
+copy "hlp\flowchart_test.hlp" .\Debug
+goto :done
+:Error
+echo hlp\flowchart_test.hpj(1) : error:
+type "hlp\flowchart_test.log"
+:done
+]
+Creating command line "C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB6.bat"
+Creating temporary file "C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/flowchart_test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\我的世界\我做过的软件以及大作业\flowchart_editor\flowchart_editor_final\flowchart_testView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB7.tmp" 
+Making help file...
+hlp\flowchart_test.hpj(1) : error:
+Microsoft (R) Help Compiler
+HCRTF 4.03.0002
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+flowchart_test.hpj
+    HC5011: Error: flowchart_test.hpj : 
+ Cannot open the file "C:\USERS\LIU GUOLIANG\DESKTOP\flowchart_test\hlp\flowchart_test.hm."
+Creating temporary file "C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/flowchart_test.pdb" /debug /machine:I386 /out:"Debug/flowchart_test.exe" /pdbtype:sept 
+".\Debug\BasicShape.obj"
+".\Debug\ChildFrm.obj"
+".\Debug\Ellipse.obj"
+".\Debug\flowchart_test.obj"
+".\Debug\flowchart_testDoc.obj"
+".\Debug\flowchart_testView.obj"
+".\Debug\Label.obj"
+".\Debug\Line.obj"
+".\Debug\MainFrm.obj"
+".\Debug\PropertyDialog.obj"
+".\Debug\Quadrangle.obj"
+".\Debug\Rectangle.obj"
+".\Debug\Rhombus.obj"
+".\Debug\StdAfx.obj"
+".\Debug\flowchart_test.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB8.tmp"
+<h3>Output Window</h3>
+Compiling...
+flowchart_testView.cpp
+D:\我的世界\我做过的软件以及大作业\flowchart_editor\flowchart_editor_final\flowchart_testView.cpp(18) : fatal error C1083: Cannot open include file: 'GdiPlus.h': No such file or directory
+Error executing cl.exe.
+Creating temporary file "C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /o"Debug/flowchart_test.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\BasicShape.sbr"
+".\Debug\ChildFrm.sbr"
+".\Debug\Ellipse.sbr"
+".\Debug\flowchart_test.sbr"
+".\Debug\flowchart_testDoc.sbr"
+".\Debug\flowchart_testView.sbr"
+".\Debug\Label.sbr"
+".\Debug\Line.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\PropertyDialog.sbr"
+".\Debug\Quadrangle.sbr"
+".\Debug\Rectangle.sbr"
+".\Debug\Rhombus.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\LIUGUO~1\LOCALS~1\Temp\RSPB9.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\flowchart_testView.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+flowchart_test.exe - 4 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

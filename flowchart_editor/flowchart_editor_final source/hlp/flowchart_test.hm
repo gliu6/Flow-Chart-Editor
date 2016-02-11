@@ -1,0 +1,35 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_BUTTON32775                         0x18007
+HID_BUTTON32776                         0x18008
+HID_BUTTON32777                         0x18009
+HID_BUTTON32778                         0x1800B
+HID_MENUITEM32781                       0x1800D
+HID_BUTTON32782                         0x1800E
+HID_BUTTON32790                         0x18016
+HID_BUTTON327758                        0x1801C
+HID_TEXT                                0x18021
+HID_SaveSVG                             0x18022
+HID_32803                               0x18023
+HID_SavePNG                             0x18024
+HID_DELETE                              0x18025
+HID_ACCELERATOR32807                    0x18027
+HID_32809                               0x18029
+HID_BUTTON32810                         0x1802A
+HID_BUTTON32812                         0x1802C
+HID_BUTTON32814                         0x1802E
+ 
+// Prompts (IDP_*) 
+HIDP_SOCKETS_INIT_FAILED                0x30068
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_FLOWCHTYPE                         0x20081
+HIDR_MENU1                              0x2008A
+HIDR_MENU2                              0x2008B
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_DIALOG1                            0x20085
+ 
+// Frame Controls (IDW_*) 
